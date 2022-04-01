@@ -2,11 +2,11 @@
 {% set version = "2022.03.2" %}
 
 package:
-  name: {{ name|lower }}
+  name: {{ name }}
   version: {{ version }}
 
 source:
-  url: http://github.com/NCAR/geocat-f2py/archive/v{{ version }}.tar.gz # For building from a specific tag's tarball
+  url: http://github.com/NCAR/{{ name }}/archive/v{{ version }}.tar.gz # For building from a specific tag's tarball
   sha256: 5213495766a4f443edb32170a8fc3fce317e82436910bc75df6e5b2cd24fa01e
   # git_tag: v{{ version }}   # For building from a specific tag
   # git_rev: march # For building from main branch for debugging purposes
@@ -48,15 +48,15 @@ test:
     - test
 
 about:
-  home: https://github.com/NCAR/geocat-f2py
-  summary: GeoCAT-f2py wraps, in Python, the compiled language implementations of some of the computational functions found under the GeoCAT-comp umbrella.
-  dev_url: https://github.com/NCAR/geocat-f2py
+  home: https://geocat.ucar.edu/
+  summary: 'GeoCAT-f2py wraps, in Python, the compiled language implementations of some of the computational functions found under the GeoCAT-comp umbrella.'
+  dev_url: https://github.com/NCAR/{{ name }}
   license: Apache-2.0
   license_file: LICENSE
 
 extra:
   recipe-maintainers:
-    - pilotchute
-    - erogluorhan
-    - anissa111
-    - michaelavs
+    - pilotchute # A. Kootz https://github.com/pilotchute
+    - erogluorhan # O. Eroglu https://github.com/erogluorhan
+    - anissa111 # A. Zacharias https://github.com/anissa111
+    - michaelavs # M. Sizemore https://github.com/michaelavs
