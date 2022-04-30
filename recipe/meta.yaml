@@ -51,11 +51,13 @@ about:
   home: https://geocat.ucar.edu/
   summary: 'GeoCAT-f2py wraps, in Python, the compiled language implementations of some of the computational functions found under the GeoCAT-comp umbrella.'
   dev_url: https://github.com/NCAR/{{ name }}
+  doc_url: https://{{ name }}.readthedocs.io
   license: Apache-2.0
   license_file: LICENSE
 
 extra:
   recipe-maintainers:
+    - NCAR/geocat # GeoCAT https://github.com/orgs/NCAR/teams/geocat
     - anissa111 # A. Zacharias https://github.com/anissa111
     - erogluorhan # O. Eroglu https://github.com/erogluorhan
     - hCraker # H. Craker https://github.com/hCraker
