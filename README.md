@@ -1,11 +1,11 @@
-About geocat-f2py
-=================
+About geocat-f2py-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geocat-f2py-feedstock/blob/main/LICENSE.txt)
 
 Home: https://geocat.ucar.edu/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geocat-f2py-feedstock/blob/main/LICENSE.txt)
 
 Summary: GeoCAT-f2py wraps, in Python, the compiled language implementations of some of the computational functions found under the GeoCAT-comp umbrella.
 
@@ -219,6 +219,5 @@ Feedstock Maintainers
 * [@anissa111](https://github.com/anissa111/)
 * [@erogluorhan](https://github.com/erogluorhan/)
 * [@hCraker](https://github.com/hCraker/)
-* [@michaelavs](https://github.com/michaelavs/)
 * [@pilotchute](https://github.com/pilotchute/)
 
